@@ -14,14 +14,11 @@ public class EventoAutomotivo {
     private Bilheteria[] bilheteria;
     private Administradores[] administradores;
 
-
-
     //Criação de Construtor
     public EventoAutomotivo(LocalDate data, String local) {
         this.data = data;
         this.local = local;
     }
-
 
     //Criação dos setters e getters
     public LocalDate getData() {
