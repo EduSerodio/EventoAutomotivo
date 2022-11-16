@@ -1,6 +1,7 @@
 package EventoAutomotivo;
 
 public class ZonzaCoberta {
+
     //Criação Atributos
     private Integer id;
     private Double valorIngresso;

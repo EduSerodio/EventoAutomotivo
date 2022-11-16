@@ -10,6 +10,7 @@ public class ZonaAberta {
     public ZonaAberta() {
         this.valorIngresso = 70.00;
     }
+
     //Criação Métodos
     public Double valorTotalZonaAberta(Integer qtdVendas){
         return valorIngresso*qtdVendas;

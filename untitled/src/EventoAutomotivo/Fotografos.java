@@ -25,7 +25,6 @@ public class Fotografos{
     }
 
     //Criação getters e setters
-
     public Integer getId() {
         return id;
     }

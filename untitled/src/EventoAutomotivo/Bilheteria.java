@@ -4,6 +4,7 @@ public class Bilheteria {
     //Criação dos Atributos
     private Integer id;
     private Double precoTotal;
+    private Integer qtdIngressos;
 
     //relacionamento de agregação
     private ZonaAberta zonaAberta;
@@ -12,12 +13,8 @@ public class Bilheteria {
 
 
     //Criação do Construtor
-    public Bilheteria() {
-
-    }
-    //Criação de métodos
-    public void PrecoTotal(Double valorArrecadado){
-
+    public Bilheteria(Integer qtdIngressos) {
+        this.qtdIngressos = qtdIngressos;
     }
 
     //Criação getter e setter
@@ -29,13 +26,22 @@ public class Bilheteria {
         this.id = id;
     }
 
-    public Double getPreco() {
+    public Double getPrecoTotal() {
         return precoTotal;
     }
 
-    public void setPreco(Double preco) {
-        this.precoTotal = preco;
+    public void setPrecoTotal(Double precoTotal) {
+        this.precoTotal = precoTotal;
     }
+
+    public Integer getQtdIngressos() {
+        return qtdIngressos;
+    }
+
+    public void setQtdIngressos(Integer qtdIngressos) {
+        this.qtdIngressos = qtdIngressos;
+    }
+
 }
 
 

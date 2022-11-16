@@ -10,6 +10,7 @@ public class Pedestres {
     public Pedestres() {
         this.valorIngresso = 30.00;
     }
+
     //Criação Métodos
     public Double valorTotalPedestre(Integer qtdVendas){
         return valorIngresso*qtdVendas;
@@ -17,7 +18,6 @@ public class Pedestres {
 
 
     //Criação getters e setters
-
     public Integer getId() {
         return id;
     }

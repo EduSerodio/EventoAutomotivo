@@ -3,7 +3,8 @@ package EventoAutomotivo;
 import java.time.LocalDate;
 
 public class FoodTruck {
-    //Criação de Atributos da classe "FoodTruck
+
+    //Criação de Atributos
     private Integer id;
     private String responsavel;
     private String produto;

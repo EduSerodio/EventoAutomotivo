@@ -3,6 +3,7 @@ package EventoAutomotivo;
 import org.w3c.dom.ls.LSOutput;
 
 public class Administradores {
+
     //Criação dos Atributos
     private String nome;
     private Integer id;
@@ -24,8 +25,6 @@ public class Administradores {
 
     }
     //Criação getters e setters
-
-
     public String getNome() {
         return nome;
     }

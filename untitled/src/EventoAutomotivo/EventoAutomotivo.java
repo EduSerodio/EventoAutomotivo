@@ -4,11 +4,12 @@ package EventoAutomotivo;
 import java.time.LocalDate;
 
 public class EventoAutomotivo {
+
     //Criação de Atributos
     private LocalDate data;
     private String local;
 
-    //Agregação
+    //Relacionamento de Associação
     private Fotografos[] fotografos;
     private FoodTruck[] foodTrucks;
     private Bilheteria[] bilheteria;
